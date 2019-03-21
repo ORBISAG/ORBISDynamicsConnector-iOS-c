@@ -10,7 +10,7 @@ LIC
 }
     s.author            = { 'Orbis' => 'info@orbis.de' }
     s.platform          = :ios
-    s.source            = { :http => 'https://serviceimplementation.azurewebsites.net/OrbisDynamicsConnector.framework1.0.1.zip'}
+    s.source            = { :http => 'https://crmde-d-webapp-csp-deploy.azurewebsites.net/OrbisDynamicsConnector.framework1.0.1.zip'}
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'OrbisDynamicsConnector.framework'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
